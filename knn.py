@@ -1,8 +1,6 @@
 
 # coding: utf-8
 
-# In[2]:
-
 import csv
 import random
 import math
@@ -75,24 +73,3 @@ def main():
         print('> predicted=' + repr(result) + ', actual=' + repr(testSet[x][-1]))
     accuracy = getAccuracy(testSet, predictions)
     print('Accuracy: ' + repr(accuracy) + '%')
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
-
-# In[ ]:
-
-
-
